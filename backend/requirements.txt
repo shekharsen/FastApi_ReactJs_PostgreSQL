@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+psycopg2-binary
+sqlalchemy
+alembic
+pydantic
+
+
+# For Migration
+# python -m alembic init app/migrations
+# python -m alembic revision --autogenerate -m "Initial migration"
+# python -m alembic upgrade head
